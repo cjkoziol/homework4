@@ -80,8 +80,6 @@ footer{
 }
 
 
-
-
 .container{
   /*Your Code Here*/
   display: grid;
@@ -91,6 +89,7 @@ footer{
 }
 
 header{
+  
   background-attachment: fixed; /* Parallax effect */     
   background-position: center;  /* Parallax effect */
   background-repeat: no-repeat; /* Parallax effect */
@@ -99,6 +98,7 @@ header{
   height: 400px;                /* Parallax effect */
 
   /*Your Code Here*/
+  background-image: url("../images/header.jpg");
   /*Set background-image to header.jpg */
  
 
@@ -152,7 +152,7 @@ header p{
   border: 10px solid black;
   padding: 30px;
   /*Your code here:*/
-
+  align-self: center;
 }
 
 
@@ -160,6 +160,8 @@ header p{
   nav{
     padding: 30px 0px;
     /*Your code here:*/
+    text-align: right;
+    vertical-align: center;
   }
 
   .container{
